@@ -19,3 +19,11 @@ function closeNav() {
     document.getElementById("sectFour").style.marginLeft = "0px";
     document.getElementById("body").style.backgroundColor = "white";
 }
+
+////
+//Easter Egg?
+////
+
+//if () {
+//    
+//}

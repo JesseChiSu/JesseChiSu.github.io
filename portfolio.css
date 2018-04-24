@@ -5,26 +5,21 @@ font-family: 'Vollkorn', serif;
 
 h1 {
     text-align: center;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     font-family: 'Vollkorn', serif;
 }
 
 p {
     text-align: left;
     text-indent: 20px;
-    font-size: 18px;
+    font-size: 22px;
     /*    background-color: #bbbbbb;*/
     color: black;
     font-family: 'Roboto', sans-serif;
     margin-left: 60px;
     margin-bottom: 50px;
     margin-top: 50px;
-}
-
-.nav-image {
-    margin-top: 15px;
-    margin-left: 20px;
 }
 
 body {
@@ -39,7 +34,7 @@ ul {
 }
 
 .container {
-    display: flex;
+    display: block;
     transition: margin-left .5s;
 }
 
@@ -48,16 +43,18 @@ ul {
 }
 
 #gameLink {
-    font-size: 40;
+    font-size: 24px;
     text-align: center;
-    margin: 20px 35% 20px 35%;
-    padding: 10px 16px 10px 16px;
-    background-color: #bbbbbb;
-    border: black solid 1px;
+    border-radius: 14px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 40px;
+    background-color: #e5e5e5;
+    color: #8c8c8c;
 }
 
 #gameLink:hover {
-    color: #f1f1f1;
+    color: #404040;
 }
 
 
@@ -104,6 +101,11 @@ ul {
 
 /* The side navigation menu */
 
+.nav-image {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
 .sidenav {
     height: 100%;
     /* 100% Full-height */
@@ -116,7 +118,7 @@ ul {
     top: 0;
     /* Stay at the top */
     left: 0;
-    background-color: #111;
+    background-color: #e5e5e5;
     /* Black*/
     overflow-x: hidden;
     /* Disable horizontal scroll */
@@ -142,7 +144,7 @@ ul {
 /* When you mouse over the navigation links, change their color */
 
 .sidenav a:hover {
-    color: #f1f1f1;
+    color: #5b5b5b;
 }
 
 
@@ -153,7 +155,6 @@ ul {
     top: 0;
     right: 25px;
     font-size: 36px;
-    margin-left: 50px;
 }
 
 
