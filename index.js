@@ -20,6 +20,10 @@ function closeNav() {
     document.getElementById("body").style.backgroundColor = "white";
 }
 
+function Brazz() {
+    window.open("p5problemset/problem_3.html");
+}
+
 ////
 //Easter Egg?
 ////
